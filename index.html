@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>숫자 맞추기 게임</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>숫자 맞추기 게임!</h1>
-  <div id="result-area"></div>
-  <input type="number" id="user-input"/>
-  <button id="play-button">Go!</button>
-  <script src="main.js"></script>
-</body>
-</html>
+<body class="nanum-pen-script-regular">
+    <div class="container">
+        <h1 class="title">TODAY GAME</h1>
+        <h1 class="sub-title">★숫자 맞추기★</h1>
+        <div id="result-area">
+            <img src="https://img.freepik.com/premium-vector/retro-gaming-poster-template_23-2148762976.jpg?w=826" class="main-img">
+        </div>
+        <p></p>
+        <div class="row d-flex justify-content-center">
+          <input type="number" id="user-input" class="form-control mb-10" placeholder="1부터 100까지 숫자를 입력하세요!" />
+          <div class="col-md-2">
+              <button class="btn btn-success mb-2 button-style" id="play-button">도전!</button>
+          </div>
+      </div>
+      <div id="chance-area" class="result-text">남은 기회는:</div>
+      <div class="col-md-6">
+
+  </div>

@@ -1,0 +1,97 @@
+
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(43, 5, 105)
+
+  }
+  
+  .nanum-pen-script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  .container {
+    border: 5px solid rgb(243, 222, 231);
+    border-radius: 100px;
+    text-align: center;
+    background-color: rgba(250, 201, 225, 0.7);
+    width: 40%;
+    height: 650px;
+    
+  }
+  
+  
+  .border-line {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+    
+  .button-style {
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: rgba(131, 24, 145, 0.829);
+  
+  }
+  .title {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .sub-title {
+    font-size: 2vw;
+    font-weight: bold;
+
+  }
+  
+  .main-img {
+    width: 30vw;
+    height: 50vh
+  }
+  
+  .result-text {
+    font-size: 1vw;
+  
+  }
+  .form-control {
+    height: 50px;
+    width: 400px; 
+    font-size: 1.2vw;
+    margin-right: 10px;
+    text-align: center;
+    
+  }
+  
+
+  @media screen and (max-width: 35rem) {
+    
+    .title {
+      font-size: 12vw;
+    }
+    .sub-title {
+      font-size: 11vw;
+    }
+    .form-control {
+      font-size: 8vw;
+      max-width: 500px;
+      margin-right: 0px;
+    }
+    .main-img {
+      width: 70vw;
+    }
+    .button-reset {
+      font-size: 5vw;
+      width: 30px;
+      height: 60px;
+    }
+  }
